@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  <div class="container">
+    {{ partial "header.html" . }}
+    <div class="content">
+    {{ range $cat, $val := $.Site.Data }}
+    <h1 class="content-listing-header sans">{{ $cat }}</h1>
+    
+    <hr class="slender" style="width: 50%">
+    <ul class="content">
+    {{ range $val.entries }}
+      <li class="listing" style="line-height: 1.3em; margin-bottom: 1.5rem;">
+      {{ $entry := . }}
+        <div style="font-family: 'Gill Sans', 'Gill Sans MT', 'Lato', Calibri, sans-serif; letter-spacing: 0.15em; font-size: 0.6em; line-height: 1.1em; margin-bottom:0.3em">{{ $entry.authors | upper }}</div>
+        <span style="font-size: 1.15em">{{ $entry.title }}</span><br />
+        <span style="font-size: 0.8em">
+          <i>{{ $entry.venue }}</i> 
+          <span>
+            {{ with $entry.doi }}- <a href="http://dx.doi.org/{{ $entry.doi }}">DOI</a>{{ end }}
+            {{ with $entry.pdf }}- <a href="{{ $entry.pdf }}">PDF</a>{{ end }}
+            {{ with $entry.arxiv }}- <a href="https://arxiv.org/abs/{{ $entry.arxiv }}">arXiv</a>{{ end }}
+            {{ with $entry.abstract }}- <a href="{{ $entry.abstract }}">Abstract</a>{{ end }}
+        {{ with $entry.slides }}{{ with $entry.abstract }} -{{ end }} <a href="{{ $entry.poster }}">Poster</a>{{ end }}
+        {{ with $entry.poster }}- <a href="{{ $entry.slides }}">Slides</a>{{ end }}
+            {{ with $entry.code }}- <a href="{{ $entry.code }}">Code</a>{{ end }}
+          </span>
+        </span>
+        </li>
+        {{ end }}
+        
+    </ul>
+{{ end }}
+
+
+    </div>
+    {{ partial "footer.html" . }}
+    
+    
+  </div>
+
+</body>
+
+</html>
+

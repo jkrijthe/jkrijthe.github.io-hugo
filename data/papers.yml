@@ -1,0 +1,70 @@
+entries:
+- title: The Pessimistic Limits of Margin-based Losses in Semi-supervised Learning
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: Preprint
+  arxiv: 1612.08875
+- title: Projected Estimators for Robust Semi-supervised Classification
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: Machine Learning (2017)
+  arxiv: 1602.07865
+  code: https://github.com/jkrijthe/ProjectedEstimators
+  doi: 10.1007/s10994-017-5626-8
+- title: Robust Semi-supervised Least Squares Classification by Implicit Constraints
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: Pattern Recognition, 63, 115–126.
+  arxiv: 1512.08240
+  code: https://github.com/jkrijthe/ImplicitlyConstrainedLeastSquares
+  doi: 10.1016/j.patcog.2016.09.009
+- title: The Peaking Phenomenon in Semi-supervised Learning
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: Joint IAPR International Workshops on Statistical Techniques in Pattern Recognition (SPR) and Structural and Syntactic Pattern Recognition (SSPR) (LNCS, volume 10029), pp 299-309.
+  arxiv: 1610.05160
+  code: https://github.com/jkrijthe/peakingssl
+  doi: 10.1007/978-3-319-49055-7_27
+- title: Optimistic Semi-supervised Least Squares Classification
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: Proceedings of the International Conference on Pattern Recognition (2016)
+  arxiv: 1610.03713
+  code: https://github.com/jkrijthe/optimisticssl
+- title: "Reproducible Pattern Recognition Research: The Case of Optimistic SSL"
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: "RRPR 2016: 1st Workshop on Reproducible Research in Pattern Recognition"
+  arxiv: 1612.08650
+  doi: 10.1007/978-3-319-56414-2_4
+  code: https://github.com/jkrijthe/optimisticssl
+- title: "RSSL: Semi-supervised Learning in R"
+  authors: Jesse H. Krijthe
+  venue: "RRPR 2016: 1st Workshop on Reproducible Research in Pattern Recognition"
+  arxiv: 1612.07993
+  doi: 10.1007/978-3-319-56414-2_8
+  code: https://github.com/jkrijthe/rsslvignette 
+- title: Feature-Level Domain Adaptation
+  authors: Wouter M. Kouw, Laurens J.P. van der Maaten, Jesse H. Krijthe and Marco Loog
+  venue: Journal of Machine Learning Research, 17(171), 1-32 (2016)
+  arxiv: 1512.04829
+  code: https://github.com/wmkouw/da-fl
+  pdf: http://jmlr.org/papers/v17/15-206.html
+- title: "Pan-cancer subtyping in a 2D-map shows substructures that are driven by specific combinations of molecular characteristics"
+  authors: Erdogan Taskesen, Sjoerd M. H. Huisman, Ahmed Mahfouz,  Jesse H. Krijthe, Jeroen de Ridder, Anja van de Stolpe, Erik van den Akker, Wim Verheagh, Marcel J. T. Reinders
+  venue: Scientific Reports, 6, 24949 (2016)
+  doi: 10.1038/srep24949
+- title: Implicitly Constrained Semi-Supervised Least Squares Classification
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: The Fourteenth International Symposium on Intelligent Data Analysis (2015)
+  doi: 10.1007/978-3-319-24465-5_14
+  bibtex: ida2015.bib
+  arxiv: 1507.06802
+  code: https://github.com/jkrijthe/ImplicitlyConstrainedLeastSquares
+- title: Implicitly Constrained Semi-Supervised Linear Discriminant Analysis
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: Proceedings of the International Conference on Pattern Recognition (2014)
+  bibtex: icpr2014.bib
+  arxiv: 1411.4521
+  code: https://github.com/jkrijthe/ImplicitlyConstrainedLDA
+  doi:  10.1109/ICPR.2014.646
+- title: Improving cross-validation based classifier selection using meta-learning
+  authors: Jesse H. Krijthe, Tin Kam Ho and Marco Loog
+  venue: Proceedings of the International Conference on Pattern Recognition (2012)
+  bibtex: icpr2012.bib
+  pdf: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6460765
+  code: 'https://github.com/jkrijthe/ImprovingCVthroughML'

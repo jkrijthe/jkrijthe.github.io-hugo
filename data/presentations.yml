@@ -1,0 +1,31 @@
+entries:
+- title: 'RSSL: Semi-Supervised Learning in R'
+  authors: Jesse H. Krijthe 
+  venue: useR! 2015
+  abstract: user2015-abstract.txt
+  poster: user2015-poster.pdf
+  code: 'https://github.com/jkrijthe/useR2015/'
+- title: Implicitly Constrained Semi-Supervised Linear Discriminant Analysis
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: Benelearn 2015
+  abstract: benelearn2015-abstract.pdf
+  poster: benelearn2015-poster.pdf
+- title: Implicitly Constrained Semi-Supervised Linear Discriminant Analysis
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: SSN Symposium 2015
+  abstract: snn2015-abstract.txt
+  poster: snn2015-poster.pdf
+- title: Robust Semi-Supervised Learning through Implicit Constraints
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: Benelearn 2014
+  abstract: benelearn2014-abstract.pdf
+  slides: benelearn2014-slides.pdf
+- title: Implicitly Constrained Least Squares Classification
+  authors: Jesse H. Krijthe and Marco Loog
+  venue: Machine Learning Summer School 2014
+  poster: mlss2014-poster.pdf
+- title: Improving Cross-Validation Classifier Selection Accuracy through Meta-learning
+  authors: 'Jesse Krijthe, Tin Kam Ho and Marco Loog'
+  venue: Benelearn 2013
+  abstract: benelearn2013-abstract.pdf
+  slides: benelearn2013-slides.pdf

@@ -1,0 +1,1 @@
+Personal website using Clay Harmon's [Tufte Jekyll theme](https://github.com/clayh53/tufte-jekyll)

@@ -1,0 +1,12 @@
+baseURL: http://www.jessekrijthe.com
+disablePathToLower: true
+languageCode: en-us
+title: Jesse Krijthe
+buildDrafts: false
+theme: "theme-jk"
+publishDir: docs
+author:
+  name: Jesse Krijthe
+  email: jkrijthe@gmail.com
+permalinks:
+  articles: /articles/:filename

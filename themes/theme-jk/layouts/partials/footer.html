@@ -1,0 +1,18 @@
+<footer>
+  <div class="credits">
+    <span style="color: grey">
+      <a href="mailto:j.krijthe@cs.ru.nl">mail</a> - 
+      <a href="https://www.twitter.com/jessekrijthe">twitter</a> - 
+      <a href="https://github.com/jkrijthe">github</a> - 
+      <a href="https://scholar.google.nl/citations?user=Rm7OUa0AAAAJ">scholar</a> - 
+      <a href="{{ .Site.RSSLink }}">rss</a>
+      </span></br> </br>
+    <span style="letter-spacing: 0.05em;">
+      &copy; {{ dateFormat "2006" now }}
+      &nbsp;&nbsp;{{ .Site.Author.name | upper }}
+    </span></br> </br>
+    <span>
+      This site was created using the <a href="https://github.com/clayh53/tufte-jekyll">Tufte theme</a> and <a href="http://gohugo.io">Hugo</a>.
+    </span>
+  </div>
+</footer>
