@@ -1,0 +1,19 @@
+---
+date: 2017-05-09T17:09:13Z
+title: Eurovision Winning Probabilities
+categories: "Eurovision"
+---
+
+
+
+<p>This week marks the <a href="https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2017">62nd edition of the Eurovision Song Contest</a>: an annual event where countries from across Europe and beyond (Australia is competing as well) come together to perform 3 minute pop songs.</p>
+<p><a href="https://www.kaggle.com/c/Eurovision2010">Predicting the outcome</a> of the contest poses an interesting statistical problem since the rules of the comeptition have been relatively stable over the years, so there is some data to base future predictions on, yet there is only a single contest every year, making it easy to overtrain a model on the limited data available.</p>
+<p>Perhaps the most commonly reported predictions by the media are those implied by the odds set by bookmakers. In this note, I want to explore what probabilities the bookmakers’ odds correspond to for this year’s competition, as well as how well these probabilities predicted the winner in recent years.</p>
+<p>Let’s start with the most important part, this year’s probabilities:</p>
+<p><img src="/articles/eurovision-betting-prob_files/figure-html/current-odds-1.png" width="576" /></p>
+<p>Italy is the clear favourite. As we’ll see below, the markets are relatively confident in this year’s favourite actually winning, compared to the previous four years.</p>
+<p>A short note on the methodology: I converted the decimal odds reported by the bookmakers to probabilities and then divided these by the total probability assigned by a bookie to all the countries combined. The total probability is bigger than one, which reflect the advantage the bookmakers have over their customers. The division by this total is a crude way to correct for this advantage. The probabilities reported here correspond to the median probability of all the bookmakers I had data for.</p>
+<p>These are the probabilities (close to) the monday before the competition in previous years:</p>
+<p><img src="/articles/eurovision-betting-prob_files/figure-html/previous-odds-1.png" width="350px" /><img src="/articles/eurovision-betting-prob_files/figure-html/previous-odds-2.png" width="350px" /><img src="/articles/eurovision-betting-prob_files/figure-html/previous-odds-3.png" width="350px" /><img src="/articles/eurovision-betting-prob_files/figure-html/previous-odds-4.png" width="350px" /></p>
+<p>In 2014 the bookmakers were clearly off, although it is hard to say whether this is bad, given the sample of only 4 years. In the other three years, the winner was assigned a reasonably high probability. It is interesting how skewed towards Italy the probabilities are this year. In previous years, there was usually a second country with a reasonably high probability. Whether this reflects a clear preference by the European voters, we’ll have to see during the final this Saturday.</p>
+<p><em>Update after the contest:</em> Portugal won, which, given the large probability placed on an Italy win by the bookmakers, does not help increase confidence in the hypothesis that these probabilities are properly calibrated.</p>
