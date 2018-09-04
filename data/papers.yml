@@ -1,17 +1,22 @@
 entries:
+- title: "Robust Semi-supervised Learning: Projections, Limits & Contraints"
+  authors: Jesse H. Krijthe
+  venue: PhD Thesis
+  pdf: http://www.jessekrijthe.com/thesis.pdf
+  code: https://github.com/jkrijthe/RobustSSL
 - title: The Pessimistic Limits of Margin-based Losses in Semi-supervised Learning
   authors: Jesse H. Krijthe and Marco Loog
   venue: Preprint
   arxiv: 1612.08875
 - title: Projected Estimators for Robust Semi-supervised Classification
   authors: Jesse H. Krijthe and Marco Loog
-  venue: Machine Learning (2017)
+  venue: Machine Learning, 106 (7), 993–1008. (2017)
   arxiv: 1602.07865
   code: https://github.com/jkrijthe/ProjectedEstimators
   doi: 10.1007/s10994-017-5626-8
 - title: Robust Semi-supervised Least Squares Classification by Implicit Constraints
   authors: Jesse H. Krijthe and Marco Loog
-  venue: Pattern Recognition, 63, 115–126.
+  venue: Pattern Recognition, 63, 115–126. (2017)
   arxiv: 1512.08240
   code: https://github.com/jkrijthe/ImplicitlyConstrainedLeastSquares
   doi: 10.1016/j.patcog.2016.09.009
@@ -25,6 +30,7 @@ entries:
   authors: Jesse H. Krijthe and Marco Loog
   venue: Proceedings of the International Conference on Pattern Recognition (2016)
   arxiv: 1610.03713
+  doi: 10.1109/ICPR.2016.7899877
   code: https://github.com/jkrijthe/optimisticssl
 - title: "Reproducible Pattern Recognition Research: The Case of Optimistic SSL"
   authors: Jesse H. Krijthe and Marco Loog
