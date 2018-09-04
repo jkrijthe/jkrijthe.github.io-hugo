@@ -1,8 +1,7 @@
 ---
 title: PhD Defense
 date: 2018-01-16
-categories: "Personal"
-draft: true
+categories: "Machine Learning"
 ---
 
 <img src="/img/thesis-stack.jpg" width="400" class="sidenote" />

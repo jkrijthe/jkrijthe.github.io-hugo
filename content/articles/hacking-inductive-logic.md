@@ -2,7 +2,6 @@
 date: 2017-09-06T20:00:00Z
 title: Hacking's Introduction to Probability and Inductive Logic
 categories: "Philosophy"
-draft: true
 ---
 <img src="/img/hacking-inductive-logic.jpg" width="400" class="sidenote" />
 

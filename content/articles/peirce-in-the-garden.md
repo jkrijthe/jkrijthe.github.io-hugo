@@ -2,7 +2,6 @@
 date: 2018-08-31T20:00:00Z
 title: Peirce in the Garden
 categories: "Philosophy"
-draft: true
 ---
 
 After [reading Ian Hacking's book](/articles/hacking-inductive-logic/) I got interested in C.S. Peirce's ideas on inductive inference. I had not heard of Peirce before. Another recent interest is Deborah Mayo's error statistical philosopy. Luckily, Mayo turns out to be an adminirer of Peirce and wrote a paper connecting her arguments about so-called severe testing to Peirce's ideas on self correcting science.
