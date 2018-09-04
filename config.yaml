@@ -1,5 +1,6 @@
-baseURL: http://www.jessekrijthe.com
+baseURL: http://www.jessekrijthe.com/
 disablePathToLower: true
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 languageCode: en-us
 title: Jesse Krijthe
 buildDrafts: false
@@ -9,3 +10,7 @@ author:
   email: jkrijthe@gmail.com
 permalinks:
   articles: /articles/:filename
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  series: "series"
