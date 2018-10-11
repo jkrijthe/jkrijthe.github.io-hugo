@@ -6,7 +6,7 @@ entries:
   code: https://github.com/jkrijthe/RobustSSL
 - title: The Pessimistic Limits of Margin-based Losses in Semi-supervised Learning
   authors: Jesse H. Krijthe and Marco Loog
-  venue: Preprint
+  venue: Advances in Neural Information Processing Systems, to appear (2018)
   arxiv: 1612.08875
 - title: Projected Estimators for Robust Semi-supervised Classification
   authors: Jesse H. Krijthe and Marco Loog
