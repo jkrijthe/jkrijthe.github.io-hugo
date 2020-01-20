@@ -1,4 +1,21 @@
 entries:
+- title: Robust importance-weighted cross-validation under sample selection bias
+  authors: Wouter M. Kouw, Jesse H. Krijthe and Marco Loog
+  venue: International Workshop on Machine Learning for Signal Processing (2019)
+  arxiv: 1710.06514
+- title: Nuclear discrepancy for single-shot batch active learning
+  authors: Tom J. Viering,  Jesse H. Krijthe and Marco Loog
+  venue: Machine Learning, 108 (8), pp. 1561-1599 (2019)
+  doi: "10.1007/s10994-019-05817-y"
+  arxiv: 1706.02645
+- title: "Measuring Parkinson's disease over time: The real-world within-subject reliability of the MDS-UPDRS"
+  authors: Luc J.W. Evers, Jesse H. Krijthe, Marjan J. Meinders,  Bastiaan R. Bloem and Tom M. Heskes
+  venue: Movement Disorders (2019)
+  doi: 10.1002/mds.27790
+- title: Sex-Specific Patient Journeys in Early Parkinson's Disease in the Netherlands
+  authors:  Floris P. Vlaanderen, Yvonne de Man, Jesse H. Krijthe, Marit A.C. Tanke,  A.S. Groenewoud, Patrick P.T. Jeurissen,  Sabine Oertelt-Prigione,  Marten Munneke, Bastiaan R. Bloem and Marjan J.Meinders 
+  venue: Frontiers in Neurology, 10, 794 (2019)
+  doi: 10.3389/fneur.2019.00794
 - title: "Robust Semi-supervised Learning: Projections, Limits & Contraints"
   authors: Jesse H. Krijthe
   venue: PhD Thesis
@@ -6,7 +23,7 @@ entries:
   code: https://github.com/jkrijthe/RobustSSL
 - title: The Pessimistic Limits of Margin-based Losses in Semi-supervised Learning
   authors: Jesse H. Krijthe and Marco Loog
-  venue: Advances in Neural Information Processing Systems, to appear (2018)
+  venue: Advances in Neural Information Processing Systems 31, 1790-1799 (2018)
   arxiv: 1612.08875
 - title: Projected Estimators for Robust Semi-supervised Classification
   authors: Jesse H. Krijthe and Marco Loog
