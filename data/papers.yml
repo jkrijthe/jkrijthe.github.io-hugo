@@ -2,12 +2,12 @@ entries:
 - title: Robust importance-weighted cross-validation under sample selection bias
   authors: Wouter M. Kouw, Jesse H. Krijthe and Marco Loog
   venue: International Workshop on Machine Learning for Signal Processing (2019)
-  arxiv: 1710.06514
+  arxiv: "1710.06514"
 - title: Nuclear discrepancy for single-shot batch active learning
   authors: Tom J. Viering,  Jesse H. Krijthe and Marco Loog
   venue: Machine Learning, 108 (8), pp. 1561-1599 (2019)
   doi: "10.1007/s10994-019-05817-y"
-  arxiv: 1706.02645
+  arxiv: "1706.02645"
 - title: "Measuring Parkinson's disease over time: The real-world within-subject reliability of the MDS-UPDRS"
   authors: Luc J.W. Evers, Jesse H. Krijthe, Marjan J. Meinders,  Bastiaan R. Bloem and Tom M. Heskes
   venue: Movement Disorders (2019)
@@ -24,47 +24,47 @@ entries:
 - title: The Pessimistic Limits of Margin-based Losses in Semi-supervised Learning
   authors: Jesse H. Krijthe and Marco Loog
   venue: Advances in Neural Information Processing Systems 31, 1790-1799 (2018)
-  arxiv: 1612.08875
+  arxiv: "1612.08875"
 - title: Projected Estimators for Robust Semi-supervised Classification
   authors: Jesse H. Krijthe and Marco Loog
   venue: Machine Learning, 106 (7), 993–1008. (2017)
-  arxiv: 1602.07865
+  arxiv: "1602.07865"
   code: https://github.com/jkrijthe/ProjectedEstimators
   doi: 10.1007/s10994-017-5626-8
 - title: Robust Semi-supervised Least Squares Classification by Implicit Constraints
   authors: Jesse H. Krijthe and Marco Loog
   venue: Pattern Recognition, 63, 115–126. (2017)
-  arxiv: 1512.08240
+  arxiv: "1512.08240"
   code: https://github.com/jkrijthe/ImplicitlyConstrainedLeastSquares
   doi: 10.1016/j.patcog.2016.09.009
 - title: The Peaking Phenomenon in Semi-supervised Learning
   authors: Jesse H. Krijthe and Marco Loog
   venue: Joint IAPR International Workshops on Statistical Techniques in Pattern Recognition (SPR) and Structural and Syntactic Pattern Recognition (SSPR) (LNCS, volume 10029), pp 299-309.
-  arxiv: 1610.05160
+  arxiv: "1610.05160"
   code: https://github.com/jkrijthe/peakingssl
   doi: 10.1007/978-3-319-49055-7_27
 - title: Optimistic Semi-supervised Least Squares Classification
   authors: Jesse H. Krijthe and Marco Loog
   venue: Proceedings of the International Conference on Pattern Recognition (2016)
-  arxiv: 1610.03713
+  arxiv: "1610.03713"
   doi: 10.1109/ICPR.2016.7899877
   code: https://github.com/jkrijthe/optimisticssl
 - title: "Reproducible Pattern Recognition Research: The Case of Optimistic SSL"
   authors: Jesse H. Krijthe and Marco Loog
   venue: "RRPR 2016: 1st Workshop on Reproducible Research in Pattern Recognition"
-  arxiv: 1612.08650
+  arxiv: "1612.08650"
   doi: 10.1007/978-3-319-56414-2_4
   code: https://github.com/jkrijthe/optimisticssl
 - title: "RSSL: Semi-supervised Learning in R"
   authors: Jesse H. Krijthe
   venue: "RRPR 2016: 1st Workshop on Reproducible Research in Pattern Recognition"
-  arxiv: 1612.07993
+  arxiv: "1612.07993"
   doi: 10.1007/978-3-319-56414-2_8
   code: https://github.com/jkrijthe/rsslvignette 
 - title: Feature-Level Domain Adaptation
   authors: Wouter M. Kouw, Laurens J.P. van der Maaten, Jesse H. Krijthe and Marco Loog
   venue: Journal of Machine Learning Research, 17(171), 1-32 (2016)
-  arxiv: 1512.04829
+  arxiv: "1512.04829"
   code: https://github.com/wmkouw/da-fl
   pdf: http://jmlr.org/papers/v17/15-206.html
 - title: "Pan-cancer subtyping in a 2D-map shows substructures that are driven by specific combinations of molecular characteristics"
@@ -76,13 +76,13 @@ entries:
   venue: The Fourteenth International Symposium on Intelligent Data Analysis (2015)
   doi: 10.1007/978-3-319-24465-5_14
   bibtex: ida2015.bib
-  arxiv: 1507.06802
+  arxiv: "1507.06802"
   code: https://github.com/jkrijthe/ImplicitlyConstrainedLeastSquares
 - title: Implicitly Constrained Semi-Supervised Linear Discriminant Analysis
   authors: Jesse H. Krijthe and Marco Loog
   venue: Proceedings of the International Conference on Pattern Recognition (2014)
   bibtex: icpr2014.bib
-  arxiv: 1411.4521
+  arxiv: "1411.4521"
   code: https://github.com/jkrijthe/ImplicitlyConstrainedLDA
   doi:  10.1109/ICPR.2014.646
 - title: Improving cross-validation based classifier selection using meta-learning

@@ -5,7 +5,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 
 rm -rf public/*
-RScript -e 'blogdown::build_site()'
+RScript -e 'blogdown::hugo_build()'
 
 
 # Go To Public folder
