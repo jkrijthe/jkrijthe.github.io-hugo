@@ -9,6 +9,7 @@ ignoreFiles:
 languageCode: en-us
 title: Jesse Krijthe
 buildDrafts: false
+publishDir: build
 theme: "theme-jk"
 author:
   name: Jesse Krijthe
