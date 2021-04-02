@@ -1,6 +1,6 @@
 entries:
 - title: "Estimating the Effect of Early Treatment Initiation in Parkinson's Disease Using Observational Data"
-  authors: "van den Heuvel, L., Evers, L.J., Meinders, M.J., Post, B., Stiggelbout, A.M., Heskes, T.M., Bloem, B.R. and Krijthe, J.H."
+  authors: "Van den Heuvel, L., Evers, L.J., Meinders, M.J., Post, B., Stiggelbout, A.M., Heskes, T.M., Bloem, B.R. and Krijthe, J.H."
   venue: "Movement Disorders, 36: 407-414 (2021)"
   doi: "10.1002/mds.28339"
   code: "https://github.com/jkrijthe/pdmed"
