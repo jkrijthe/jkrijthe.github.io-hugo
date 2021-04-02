@@ -4,12 +4,12 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
 
-rm -rf public/*
+rm -rf build/*
 RScript -e 'blogdown::hugo_build()'
 
 
 # Go To Public folder
-cd public
+cd build
 # Add changes to git.
 git add -A
 
