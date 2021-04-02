@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html>
 
 <head>
   {{ partial "head.html" . }}
@@ -9,21 +9,17 @@
   <div class="container">
     {{ partial "header.html" . }}
     <div class="content">
-      <h1 class="content-listing-header sans">Notes</h1>
-      <hr class="slender" width="200em" />
-      <ul class="content-listing ">
-
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "articles") }} {{ range $paginator.Pages }}
-        <li class="listing" style="margin-bottom: 0.8em">
-          <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
-          <br><span style="font-family: Lato; margin-right: 0.5em; letter-spacing: 0.1em;
-  text-transform: uppercase; font-size: 0.8rem; color: #BFB8A0">{{ .Params.categories }} </span><span class="smaller">{{ .Date.Format "January 2, 2006" }}</span> <br/>
-        </li>
-    {{ end }}
-  </ul>
+      <div class="post">
+        <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+        <div class="post-content">
+          {{ .Content }}
+        </div>
+      </div>
     </div>
     {{ partial "footer.html" . }}
   </div>
+  {{ with .Site.Params.AnalyticsID }}{{ partial "analytics.html" . }}{{ end }}
+
 </body>
 
 </html>

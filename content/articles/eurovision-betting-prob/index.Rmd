@@ -5,13 +5,14 @@ categories: "Eurovision"
 ---
 This week marks the [62nd edition of the Eurovision Song Contest](https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2017): an annual event where countries from across Europe and beyond (Australia is competing as well) come together to perform 3 minute pop songs. 
 
-[Predicting the outcome](https://www.kaggle.com/c/Eurovision2010) of the contest poses an interesting statistical problem since the rules of the comeptition have been relatively stable over the years, so there is some data to base future predictions on, yet there is only a single contest every year, making it easy to overtrain a model on the limited data available. 
+[Predicting the outcome](https://www.kaggle.com/c/Eurovision2010) of the contest poses an interesting statistical problem since the rules of the competition have been relatively stable over the years, so there is some data to base future predictions on, yet there is only a single contest every year, making it easy to overtrain a model on the limited data available. 
 
 Perhaps the most commonly reported predictions by the media are those implied by the odds set by bookmakers. In this note, I want to explore what probabilities the bookmakers' odds correspond to for this year's competition, as well as how well these probabilities predicted the winner in recent years. 
 
 Let's start with the most important part, this year's probabilities:
 
 ```{r current-odds, echo=FALSE, warning=FALSE, message=FALSE,fig.width=6,fig.asp=1.1}
+options(tidyverse.quiet = TRUE)
 library(tidyverse, quietly = TRUE)
 library(knitr, quietly = TRUE)
 
@@ -24,7 +25,7 @@ df_probs %>%
   ungroup %>%
   filter(Year==year) %>% 
   group_by(Country, Year) %>%
-  summarize(Probability=median(Probability,na.rm=TRUE)) %>%
+  summarize(Probability=median(Probability,na.rm=TRUE),.groups="keep") %>%
   ungroup %>%
   left_join(df_winners, by = c("Country", "Year")) %>%
   mutate(Country=forcats::fct_reorder(factor(Country),Probability, .desc = FALSE)) %>% 
@@ -72,7 +73,7 @@ print(df_probs %>%
   ungroup %>%
   filter(Year==year) %>% 
   group_by(Country, Year) %>%
-  summarize(Probability=median(Probability,na.rm=TRUE)) %>%
+  summarize(Probability=median(Probability,na.rm=TRUE),.groups="keep") %>%
   ungroup %>%
   left_join(df_winners, by = c("Country", "Year")) %>%
   mutate(Country=forcats::fct_reorder(factor(Country),Probability, .desc = FALSE)) %>% 

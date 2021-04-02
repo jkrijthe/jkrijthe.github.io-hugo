@@ -17,8 +17,9 @@
     {{ range $val.entries }}
       <li class="listing" style="line-height: 1.3em; margin-bottom: 1.5rem;">
       {{ $entry := . }}
-        <div style="font-family: 'Gill Sans', 'Gill Sans MT', 'Lato', Calibri, sans-serif; letter-spacing: 0.15em; font-size: 0.6em; line-height: 1.1em; margin-bottom:0.3em">{{ $entry.authors | upper }}</div>
-        <span style="font-size: 1.15em">{{ $entry.title }}</span><br />
+        
+        <span style="font-size: 1.1em">{{ $entry.title }}</span><br />
+        <div style="font-family: 'Gill Sans', 'Gill Sans MT', 'Lato', Calibri, sans-serif; font-size: 0.6em; line-height: 1.1em; margin-bottom:0.1em">{{ $entry.authors  }}</div>
         <span style="font-size: 0.8em">
           <i>{{ $entry.venue }}</i> 
           <span>
@@ -26,8 +27,8 @@
             {{ with $entry.pdf }}- <a href="{{ $entry.pdf }}">PDF</a>{{ end }}
             {{ with $entry.arxiv }}- <a href="https://arxiv.org/abs/{{ $entry.arxiv }}">arXiv</a>{{ end }}
             {{ with $entry.abstract }}- <a href="{{ $entry.abstract }}">Abstract</a>{{ end }}
-        {{ with $entry.slides }}{{ with $entry.abstract }} -{{ end }} <a href="{{ $entry.poster }}">Poster</a>{{ end }}
-        {{ with $entry.poster }}- <a href="{{ $entry.slides }}">Slides</a>{{ end }}
+        {{ with $entry.poster }}- <a href="{{ $entry.poster }}">Poster</a>{{ end }}
+        {{ with $entry.slides }}- <a href="{{ $entry.slides }}">Slides</a>{{ end }}
             {{ with $entry.code }}- <a href="{{ $entry.code }}">Code</a>{{ end }}
           </span>
         </span>

@@ -4,7 +4,7 @@ date: 2018-01-16
 categories: "Machine Learning"
 ---
 
-<img src="/img/thesis-stack.jpg" width="400" class="sidenote" />
+<img src="images/thesis-stack.jpg" alt="" width="400px" class="sidenote" />
 
 I defended my PhD thesis! The thesis "Robust Semi-supervised Learning: Projections, Limits & Constraints" is about exploring the limits of the guarantees one can give for whether a semi-supervised learner will outperform its supervised counterpart. In other words: the limits of the usefulness of additional unlabeled data in a supervised learning setting. 
 

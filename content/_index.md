@@ -1,13 +1,12 @@
 ---
 title: About Me
-type: page
 ---
 <div style="display: table; float:right; width: 20em; margin-left: 2em; margin-right: 5em">
   <image src="/img/photo-small.png" width="100%" alt="photo-jesse" /><br />
   <image src="/img/TUlogo.png" width="100%" alt="TU Delft" />
 </div>
 
-As an assistant professor in the [Pattern Recognition & Bioinformatics](https://prb.tudelft.nl) group of TU Delft (Delft University of Technology) I work on methodology and applications of statistical machine learning. Currently, I am particularly interested in causal inference, philosophy of statistics/data science, semi-supervised learning, model evaluation/selection, domain adaptation and missing data.
+As an assistant professor in the [Pattern Recognition & Bioinformatics](https://prb.tudelft.nl) group of TU Delft (Delft University of Technology) I work on methodology and applications of statistical machine learning. Currently, I am particularly interested in causal inference, model evaluation/selection, philosophy of statistics/data science, domain adaptation and semi-supervised learning.
 
 Previously I worked as a postdoc in the [Data Science group](http://www.ru.nl/datascience/) of Radboud University Nijmegen on predictive and causal models for Parkinson's disease.
 
