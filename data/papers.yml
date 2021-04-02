@@ -1,16 +1,31 @@
 entries:
+- title: "Estimating the Effect of Early Treatment Initiation in Parkinson's Disease Using Observational Data"
+  authors: "van den Heuvel, L., Evers, L.J., Meinders, M.J., Post, B., Stiggelbout, A.M., Heskes, T.M., Bloem, B.R. and Krijthe, J.H."
+  venue: "Movement Disorders, 36: 407-414 (2021)"
+  doi: "10.1002/mds.28339"
+  code: "https://github.com/jkrijthe/pdmed"
+- title: "Density of Patient-Sharing Networks: Impact on the Value of Parkinson Care"
+  authors: "Vlaanderen, F., de Man, Y., Tanke, M., Munneke, M., Atsma, F., Meinders, M., Jeurissen, P., Bloem, B., Krijthe, J., Groenewoud, S." 
+  venue: "International Journal of Health Policy and Management, in press (2021)"
+  pdf: "https://www.ijhpm.com/article_4015_9db51de5fa807448522b8d5e039b78c2.pdf"
+- title: "A brief prehistory of double descent"
+  authors: "Marco Loog, Tom Viering, Alexander Mey, Jesse H. Krijthe, and David M. J. Tax"
+  venue: "Proceedings of the National Academy of Sciences May 2020, 117 (20) 10625-10626 (2020)"
+  doi: "10.1073/pnas.2001875117"
+  arxiv: "2004.04328"
 - title: Robust importance-weighted cross-validation under sample selection bias
   authors: Wouter M. Kouw, Jesse H. Krijthe and Marco Loog
   venue: International Workshop on Machine Learning for Signal Processing (2019)
   arxiv: "1710.06514"
+  doi: "10.1109/MLSP.2019.8918731"
 - title: Nuclear discrepancy for single-shot batch active learning
   authors: Tom J. Viering,  Jesse H. Krijthe and Marco Loog
-  venue: Machine Learning, 108 (8), pp. 1561-1599 (2019)
+  venue: "Machine Learning, 108 (8), pp. 1561-1599 (2019)"
   doi: "10.1007/s10994-019-05817-y"
   arxiv: "1706.02645"
 - title: "Measuring Parkinson's disease over time: The real-world within-subject reliability of the MDS-UPDRS"
-  authors: Luc J.W. Evers, Jesse H. Krijthe, Marjan J. Meinders,  Bastiaan R. Bloem and Tom M. Heskes
-  venue: Movement Disorders (2019)
+  authors: "Luc J.W. Evers, Jesse H. Krijthe, Marjan J. Meinders,  Bastiaan R. Bloem and Tom M. Heskes"
+  venue: "Movement Disorders, 34: 1480-1487 (2019)"
   doi: 10.1002/mds.27790
 - title: Sex-Specific Patient Journeys in Early Parkinson's Disease in the Netherlands
   authors:  Floris P. Vlaanderen, Yvonne de Man, Jesse H. Krijthe, Marit A.C. Tanke,  A.S. Groenewoud, Patrick P.T. Jeurissen,  Sabine Oertelt-Prigione,  Marten Munneke, Bastiaan R. Bloem and Marjan J.Meinders 
